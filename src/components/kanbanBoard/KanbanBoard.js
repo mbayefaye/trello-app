@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import List from '../list/List';
 import './style.css';
 
@@ -25,4 +26,7 @@ const KanbanBoard = ({ cards }) => {
   );
 };
 
+KanbanBoard.propTypes = {
+  cards: PropTypes.arrayOf(PropTypes.object)
+};
 export default KanbanBoard;
