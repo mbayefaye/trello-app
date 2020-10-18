@@ -8,6 +8,7 @@ const List = ({ title, cards }) => {
       {cards.map((card) => (
         <Card
           id={card.id}
+          color={card.color}
           title={card.title}
           description={card.description}
           tasks={card.tasks}

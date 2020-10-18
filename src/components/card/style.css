@@ -21,5 +21,5 @@
   content: '\276F';
 }
 .card_title--is-open:before {
-  content: '\2304';
+  content: '▽';
 }
