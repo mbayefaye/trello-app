@@ -1,0 +1,10 @@
+.kanboard {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 675px) {
+  .kanboard {
+    flex-direction: row;
+  }
+}
